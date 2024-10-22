@@ -15,17 +15,16 @@ interface HabitState {
   removeHabit: (id: string) => void;
   toggleHabit: (id: string, date: string) => void;
 }
-
 const useHabitStore = create<HabitState>()(
   persist(
-    (set, get) => ({
+    (set, _get) => ({
       habits: [],
       addHabit: (name, frequency) =>
         set((state) => ({
           habits: [
             ...state.habits,
             {
-              id: Date.now().toString(), // Unique habit ID using timestamp
+              id: Date.now().toString(),
               name,
               frequency,
               completedDates: [],
@@ -52,11 +51,10 @@ const useHabitStore = create<HabitState>()(
         })),
     }),
     {
-      name: "habit-local", // Name for localStorage key
-      // Optional: Use sessionStorage instead of localStorage
-      // storage: createJSONStorage(() => sessionStorage),
+      name: "habit-local",
     }
   )
 );
+
 
 export default useHabitStore;
