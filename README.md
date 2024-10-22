@@ -6,8 +6,8 @@
 # This is Learning Project build while learning Zustand.
 
 
-## Live Link 
-[Habit Tracker Live Demo](https://habittracker-e29a.onrender.com/)
+## Live Link  --> https://habittracker-e29a.onrender.com/
+
 
 ## Steps to Install and Run Locally
 
