@@ -9,6 +9,17 @@
 ## Live Link  --> https://habittracker-e29a.onrender.com/
 
 
+
+
+https://github.com/user-attachments/assets/18b25b7a-b0a6-4236-befe-a0838cd322c6
+
+
+
+
+
+
+
+
 ## Steps to Install and Run Locally
 
 Follow the steps below to clone the repository, install dependencies, and run it on your local machine.
